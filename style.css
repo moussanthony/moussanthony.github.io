@@ -1,0 +1,313 @@
+.html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.me {
+    width: 120%;
+    margin-top: 15%;
+}
+
+.mee {
+    border-radius: 100%;
+}
+
+.back {
+    opacity: 75%;
+    width: 50%;
+    margin-top: 21%;
+}
+
+.ab {
+    font-family: "Cairo", sans-serif;
+    color: black;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.ab1 {
+    color: red;
+    font-family: "Tomatoes";
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bi {
+    color: red;
+    font-size: 50px;
+}
+
+.ok {
+    padding-top: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.move {
+    color: black;
+    margin-left: 0px;
+}
+
+.nav-item {
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.btn {
+    font-family: "tomatoes";
+    color: black;
+    font-size: larger;
+}
+
+.btn:hover {
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px;
+    text-decoration-color: red !important;
+    color: red !important;
+
+}
+
+.casual {
+    font-family: "Cairo", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center !important;
+    padding-top: 200px;
+}
+
+.t1 {
+    font-size: 30px;
+}
+
+.t2 {
+    color: red;
+    font-family: "tomatoes";
+    font-size: xx-large;
+}
+
+.t3 {
+    font-size: 18px;
+}
+
+.cv {
+    background-color: red;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.cvb {
+    color: white;
+    text-decoration: none;
+}
+
+.cvb:hover {
+    color: red;
+}
+
+.cv:hover {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: red !important;
+    transition: all .3s;
+}
+
+.service {
+    text-align: center;
+    font-family: "tomatoes";
+    font-size: xx-large;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.sservice {
+    font-family: "Cairo", sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.social {
+    top: 150px;
+    font-family: "Cairo", sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .casual {
+        font-family: "Cairo", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .ok {
+        padding-top: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .me {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    .html {
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .back {
+        opacity: 75%;
+        width: 50%;
+        margin-top: 40%;
+    }
+}
+
+@media(max-width: 900px) {
+    .navbar .nav-item {
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    body {
+        text-align: center !important;
+    }
+
+    .about .section-heading {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
